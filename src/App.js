@@ -4,6 +4,9 @@ import TodoList from './components/TodoList';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import uuid from 'uuid';
+
+import './App.css';
+
 export default class App extends Component {
   state={
     items: [],
